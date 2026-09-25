@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/principais"
+            android:icon="@drawable/market2"
+            android:title="Mais vendidos" />
+        <item
+            android:id="@+id/guitar"
+            android:icon="@drawable/guitar"
+            android:title="Instrumentos musicais"/>
+        <item
+            android:id="@+id/house"
+            android:icon="@drawable/house"
+            android:title="Lar"/>
+        <item
+            android:id="@+id/inter"
+            android:icon="@drawable/plane"
+            android:title="Internacional"/>
+        <item
+            android:id="@+id/car"
+            android:icon="@drawable/car"
+            android:title="Veículos"/>
+        <item
+            android:id="@+id/roupa"
+            android:icon="@drawable/dress"
+            android:title="Roupas"/>
+    </group>
+
+    </menu>
